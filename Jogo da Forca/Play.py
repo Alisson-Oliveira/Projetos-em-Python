@@ -1,10 +1,10 @@
 #coding:utf-8
 import Control
 
-ask_again = True
+ask_again = True # Variaveis de controle
 start_game = True
 
-while start_game:
+while start_game: # Manter o jogo rodando enquanto a condição for atendida
 
     palavra_escolhida = Control.escolherPalavra()
 
