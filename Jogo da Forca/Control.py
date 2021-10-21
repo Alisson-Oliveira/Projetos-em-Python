@@ -40,7 +40,7 @@ def palavrasPadrao():
     """ está função escolhe aleatoriamente uma palavra.
     :return: uma string
     """
-    palavrasFrutas = random.randint(1, 6)
+    palavrasFrutas = random.randint(1, 10)
 
     if palavrasFrutas == 1:
         return "abacaxi"
@@ -54,6 +54,14 @@ def palavrasPadrao():
         return "abacate"
     elif palavrasFrutas == 6:
         return "morango"
+    elif palavrasFrutas == 7:
+        return "mamao"
+    elif palavrasFrutas == 8:
+        return "maça"
+    elif palavrasFrutas == 9:
+        return "uva"
+    elif palavrasFrutas == 10:
+        return "limao"
 
 
 def escolherPalavra():
